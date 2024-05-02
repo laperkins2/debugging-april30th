@@ -12,7 +12,11 @@ body {
 }
 
 #counter-value {
+  padding-bottom: 20px;
   font-size: 48px;
+  /*#1 adding padding*/
+
   /* Question 2: Why is the color not applying to the counter value? */
-  text-emphasis-color: #FF6347;
+  /*#2 took out text-emphasis-color and added just color*/
+  color: #ff6347;
 }
